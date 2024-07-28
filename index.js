@@ -4,12 +4,13 @@ let body = d.querySelector(".container-fluid");
 
 let nav = d.createElement("nav");
 body.appendChild(nav);
-nav.className="navbar navbar-expand-lg bg-warning  row w-100"
+nav.className="navbar navbar-expand-lg bg-warning  row w-100 p-0 m-0 "
 nav.innerHTML= `   
 <img src="./Recursos_Amazing_Events_Task_1/amazing_brand.png" alt="" class="w-25 navbar-brand ">
- <ul class=" navbar-nav collapse navbar-collapse offset-lg-3 gap-2" id="navbarNav">
+ <ul class=" navbar-nav collapse navbar-collapse offset-lg-3 gap-2 col-2  " id="navbarNav">
 
-            <li class="nav-item "><a href="#">HOME</a></li>
+            <li class="nav-item "><a href="#">HOME</
+            a></li>
             <li class="nav-item"><a href="#">UPCOMING EVENTS</a></li>
             <li class="nav-item"><a href="#">PAST EVENTS</a></li>
             <li class="nav-item"><a href="#">CONTACT</a></li>
